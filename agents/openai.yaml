@@ -1,4 +1,4 @@
 interface:
-  display_name: "MiniMax H3 剧本转分镜（两阶段）"
-  short_description: "分镜策划、本地落盘、确认、逐镜生成 H3 视频提示词（文戏、武戏、MV）"
-  default_prompt: "Use $kkdemabu-minimax-h3 to confirm the output language (中文版 default, or 英文版) and the visual style with the user as selectable options first, then read the story (or .srt lyrics for MV mode), build the five archives and the shot plan (each shot: type 文戏/武戏/MV, plot, appearing characters/props/scenes, plus 画面质感 and 运镜方式), save it as <项目名>/阶段一事件档案.json and wait for confirmation, then write <项目名>/阶段二视频文本.json shot by shot following references/writing.md, and check the result against the 8-item delivery checklist before reporting the file path."
+  display_name: "MiniMax H3 剧本转分镜（三阶段）"
+  short_description: "时间码脚本、分镜档案、逐镜 H3 视频提示词（文戏、武戏、场面、MV）"
+  default_prompt: "Use $kkdemabu-minimax-h3 to read history/learnings.md and ask the four opening questions in one go (生成语言 default 中文版, 执行方式, 画风 from references/styles.md, 脚本风格 from styles.md §6); stage 1: write <项目名>/剧本.md as a timecoded script with the 因果线 and 夸张线 checklists and stop for confirmation (skip when the input is already a timecoded script); stage 2: write <项目名>/阶段二事件档案.json with the five archives and the shot plan, ten shots per batch; stage 3: write <项目名>/阶段三视频文本.json shot by shot following references/writing.md and references/example.md, five shots per batch; then run the 13-item delivery checklist and report the directory tree with episode and shot counts."

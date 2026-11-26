@@ -2,35 +2,39 @@
 
 「写手稿」＝`时间段` 里的样子，只有画面句与声音字段。新任务按当前资产重写。
 
-英文版同结构：段内叙述用英文、名称保留中文、台词与 `<d>` 标签照原文、段首连接词英文。样例多为 12 秒镜（单段直生写法，段数多、节拍密）。改成 8 秒镜时，段数按 `writing.md` §8.3 表重排，镜内第一段改写成承接上一镜惯性。
-
-## 一、文戏 12 秒（4 段，1 次切镜）
+## 一、文戏 8 秒（4 段）
 
 ```text
-中景过肩框住阁楼，书童坐在窗下案前、位于画面右三分之一的窗前，侧对镜头，视线落在棋盘上，一只手在桌下把袖口卷起又放下；棋师在对面隔棋盘一臂远、处在画面左，手里焐着一枚棋子没落；烛火自书童侧前方照入，暖色柔光包裹半张侧脸，明暗交界落在棋盘中线。
+中景过肩框住阁楼，书童坐在窗下案前、位于画面右三分之一的窗前，侧对镜头，视线落在棋盘上，一只手在桌下把袖口卷起又放下；棋师在对面隔棋盘一臂远、处在画面左，手里焐着一枚棋子没落；烛火自书童侧前方照入，暖色柔光包裹半张侧脸。
 
-continuing the motion, 书童抬眼看向对面，先停一拍，指腹把信纸边角按平又按皱，喉结动了一下，低声说：<d>[Chinese]这盘棋，你从三年前就等着我下。</d>说完把信纸往袖里塞了半寸，又停住。
+continuing the motion, 书童抬眼看向对面，先停一拍，指腹把信纸边角按平又按皱，喉结动了一下，低声说：<d>[Chinese]这盘棋你等了三年。</d>说完把信纸往袖里塞了半寸。
 
-the camera cuts to 中近景过肩，棋师不急着落子，先把棋子在手心转了一圈，目光越过棋盘落在书童塞信纸的那只手腕上，温声说：<d>[Chinese]信纸比我那步棋更值钱。</d>说完用袖口把落点擦了一下，才把棋子轻轻放下，发出一声脆响。
+the camera cuts to 中近景过肩，棋师不急着落子，先把棋子在手心转了一圈，目光越过棋盘落在书童塞信纸的那只手腕上，温声说：<d>[Chinese]信纸比我那步棋值钱。</d>
 
-flowing into the finale, 书童喉头滚了一遭，张开的嘴又合上，只伸手把棋盘边的袖口抚平，哑着嗓子说：<d>[Chinese]那我便下了。</d>手悬在棋子上方一寸没有落下，the camera holds as 两人都不看棋盘。
+flowing into the finale, 书童喉头滚了一遭，张开的嘴又合上，只伸手把棋盘边的袖口抚平，手悬在棋子上方一寸没有落下，The camera holds a static shot, 两人都不看棋盘。
 ```
 
-环境音：Rain on the eaves runs as the base with a candle wick popping now and then; thin paper rustles and wide sleeves brush the wooden table, all kept low under the dialogue.
-BGM：Restrained solo cello holding a long tone at a slow tempo over sparse piano, dropping to a single plucked note when the stone lands, fading out at the end.
+环境音：Rain on the eaves as the base, a candle wick popping, thin paper rustling, wide sleeves brushing wood, all low under the dialogue.
+BGM：Restrained solo cello holding a long tone at a slow tempo over sparse piano, dropping to one plucked note when the stone lands.
 
-要点：人味靠三件具体的事——卷起又放下袖口、先用袖口擦落点、最后都避开棋盘；台词说信纸，动作说舍不得；最重的一句落在手悬着一寸没落。四段的账：他递信被拦 → 他用旧事顶回去 → 她拿话试他 → 两人都没落子。
+要点：四段的账是「递信被拦 → 用旧事顶回去 → 拿话试他 → 两人都没落子」，每段都有可见动作与一件物件（袖口、信纸、棋子、棋盘），描述只管往上加；台词只有 17 字，8 秒说得完。镜头句：切镜段只写 `the camera cuts to`（转场不占运动额度），末段落到词表第 7 条 `The camera holds a static shot`；要推近就写 `The camera pushes in with small amplitude at slow speed, ending on …`，一段只放一条。
 
-## 二、夸张喜剧（C 档，8 秒 4 段，机关按 `gags.md` 挑）
+## 二、夸张喜剧（C 档）
+
+写法取 `gags.md` 的 G 编号，每段「触发 → 机关 → 残留」：面板跳出 `贬去守门` → 瞳孔缩针尖（G1-05）→ 僵 0.4 秒只动眼珠（G4-03）→ 眼珠弹两尺（G1-01）→ 下巴掉地拖土沟（G1-02）→ 捡起来扣回、咧嘴笑到耳根。机关后必须回到可辨认的形态。
+
+同一场的写手稿（8 秒 4 段，看参数怎么落进句子）：
 
 ```text
-中景偏广角 26mm 怼在摊前，白泽位于画面中央前中景，面朝镜头略偏右，一手举幡一手托着全息面板，幡杆上缠的那圈发白胶带在光里反白；雨后湿青石板把红灯笼的光压成一片，油烟从画面右侧斜切进来。
+24mm 广角怼到鼻尖 20cm，高饱和暖调：[角色全名]站在半透明面板前、位于画面正中，正面朝镜头，面板的冷光压在半张脸上；他抬手点开最上面一封，标题翻出来。
 
-continuing the motion，面板上跳出「逾期未达标者，贬为门神」，他的瞳孔先缩成针尖（G1-05），僵住 0.4 秒只让眼珠往右挪（G4-03），接着两颗眼珠「啵」地弹出两尺、挂在钢丝上来回晃两下（G1-01），下巴跟着脱臼掉到地上，在地面拖出一道土沟（G1-02）。
+continuing the motion, 他读到「贬去守门」四个字，瞳孔先缩成针尖（G1-05），整个人僵 0.4 秒只有眼珠左右扫（G4-03），腮帮松下来又鼓起来；他低声说：<d>[Chinese]守门……我？</d>说完下巴还没合上。
 
-the camera cuts to 侧面中近景贴地，下巴在地上滑了半尺才停，一颗脑袋大的汗珠从太阳穴砸进土里（G1-05），幡杆自己抖了三下，抖完「啪」地软下去（G5-01），他哑着嗓子说：<d>[Chinese]门神……我？</d>
+the camera cuts to 近景，The camera pushes in with large amplitude at fast speed, ending on the dropped jaw，下巴往前伸两指、眼白全露，下巴掉到地上拖出一道土沟（G1-02），他弯腰捡起来扣回去，扣歪了半寸。
 
-flowing into the finale，他把下巴捡起来对准牙床「咔」地扣回去，嘴角还挂着一丝口水，面无表情地转向镜头半秒——随即咧嘴笑到耳根，举幡吆喝，the camera holds as 幡尖的红布条还在抖。
+flowing into the finale，他把招牌往肩上一扛，咧嘴笑到耳根，眼珠弹回眼眶还晃了两下（G1-01），The camera holds a static shot, 面板上的字还亮在他背上。
 ```
 
-要点：每段一个机关，全部走「触发（面板文字）→ 机关（G 编号）→ 残留（土沟、口水、布条还在抖）」；机关之后必须接回可辨认的形态，否则观众只记得特效。最后那半秒面无表情是**反差式的合法冷面**（`gags.md` 组合公式），因为前后两拍已经炸过了。
+环境音：Street chatter and a wooden stall creaking as the base, a cartoon wobble boing when the jaw hits the ground, a balloon-pop squeak on the eye snap-back, all low under the dialogue.
+
+要点：每段只放一个机关，机关前后都能认出是同一个人；夸张全用数（20cm、0.4 秒、两指、半寸、两尺），形容词换成位移与形变；冷面只占「僵 0.4 秒」那一拍，同镜解冻。镜头句三种都用到：切镜段起手 `the camera cuts to`（转场不算运动），本段只放一条运动 `The camera pushes in with large amplitude at fast speed, ending on …`，末段落回 `The camera holds a static shot`。
